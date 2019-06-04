@@ -1,0 +1,14 @@
+.navbar .nav-item .nav-link {
+    color: #ffff;
+}
+
+body {
+    background: #ff9f43;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    padding: 10px;
+}

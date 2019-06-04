@@ -1,0 +1,29 @@
+body {
+    background: #ff9f43;
+    /* Ubicación de la imagen */
+    background-image: url(/img/home.jpg);
+    /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-position: center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    /*background-size: cover;*/
+    background-size: 70%;
+}
+
+p {
+    margin-bottom: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 30rem;
+}
+
+#imagen {
+    background-position: center;
+}
+
+.navbar .nav-item .nav-link {
+    color: #ffff;
+}
