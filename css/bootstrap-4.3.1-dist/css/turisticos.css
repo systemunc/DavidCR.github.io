@@ -1,4 +1,4 @@
-.navbar .nav-item .nav-link {
+/*.navbar .nav-item .nav-link {
     color: #ffff;
 }
 
@@ -19,4 +19,154 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: antiquewhite;
+    width: 960px;
+    margin: 15px auto;
+    /*border: 1px solid #000000;*/
+}
+
+#cabecera {
+    text-align: left;
+    background: #FFFBB9;
+    border: 1px solid #999999;
+    padding: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-box-shadow: rgb(150, 150, 150) 5px 5px;
+    /* text-shadow: rgb(0, 0, 150) 3px 3px 5px;*/
+    /*background: -webkit-linear-gradient(top, #FFFFFF, #006699);*/
+    /* background: linear-gradient(30deg, #FFFFFF, #006699);*/
+    text-shadow: rgba(0, 0, 0, 50) 3px 3px 5px;
+    /* outline: 2px dashed #000099;*/
+}
+
+h1 {
+    /*font-size: 2.8em;*/
+    font-size: 40px;
+    /*font-family: 'FuenteDavid';*/
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer,
+picture,
+figcaption {
+    display: block;
+}
+
+#nav-principal {
+    background: #CCCCCC;
+    padding: 5px 15px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+#nav-principal li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
+
+#parte-nav {
+    float: left;
+    width: 220px;
+    /* width: 22%;*/
+    margin: 20px;
+}
+
+#nav-secundario {
+    text-align: left;
+    margin-top: 50px;
+}
+
+#nav-secundario ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+#nav-secundario ul li {
+    /* margin-top: 10px;*/
+    background-color: #999999;
+    position: relative;
+    width: 200px;
+    border-top: 2px solid #BDC3C7;
+}
+
+#nav-secundario ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#parte-contenido {
+    float: left;
+    width: 660px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #CCCCCC;
+}
+
+#pie {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+    clear: both;
+}
+
+article {
+    background: #FFFBCC;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+article footer {
+    text-align: right;
+}
+
+figcaption {
+    font: italic 14px verdana, sans-serif;
+}
+
+@font-face {
+    font-family: 'FuenteDavid';
+    src: url('/colour.ttf');
+}
+
+
+/*
+#publicidad {
+    outline: 2px dashed #000099;
+    float: left;
+    width: 100px;
+}*/
+
+#for {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.navbar .nav-item .nav-link {
+    color: #ffff;
+}
+
+body {
+    background: #ff9f43;
+}
+
+h1 {
+    text-align: center;
+}
+
+#david {
+    image-orientation: center;
 }
